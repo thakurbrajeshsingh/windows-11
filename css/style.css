@@ -32,3 +32,19 @@ body{
     margin: 3px 0;
     height: 85%;
 }
+
+
+.desk-icons {
+    /* margin-top: 9px;
+    width: 78px;
+    height: 50px;
+} */
+margin-left: 10px;
+}
+
+.desk-icons span{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+}
