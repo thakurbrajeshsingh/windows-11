@@ -7,13 +7,21 @@ body{
    height: 100vh;
    overflow: hidden;
 }
-body video{
-    
+.startMenu{
+    position: absolute;
+    bottom: -650px;
+    width: 100%;
+    text-align: center;
+    transition: all 0.3s ease-in;
+}
+.startMenu img{
+    border-radius: 8px;
 }
 .taskbar{
     position: absolute;
     bottom: 0;
     display: flex;
+    z-index: 110;
     justify-content: center;
     width: 100%;
     background-color: #f3f3f3;
